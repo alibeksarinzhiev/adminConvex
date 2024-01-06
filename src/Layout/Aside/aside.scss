@@ -1,0 +1,16 @@
+.aside{
+  background: #F1F2F7;
+  height: 100vh;
+  &__container{
+    width: 240px;
+    padding: 20px;
+  }
+  &__menu{
+display: flex;
+    flex-direction: column;
+  }
+
+}
+.active{
+  color: red;
+}
