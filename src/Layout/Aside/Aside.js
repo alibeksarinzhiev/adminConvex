@@ -12,6 +12,8 @@ const Aside = () => {
                 setPath('главная')
             }else if (location.pathname ==='/users'){
                 setPath('пользователи')
+            }else if (location.pathname ==='/comment'){
+                setPath('отзывы')
             }
         },
         [location])
@@ -23,7 +25,7 @@ const Aside = () => {
                 <ul className='aside__menu'>
                     <Link className={`${path ==='главная'?'aside__li active':'aside__li'}`} to='/' >Главная</Link>
                     <Link>Товары</Link>
-                    <Link>Отзывы</Link>
+                    <Link className={`${path ==='отзывы'?'aside__li active':'aside__li'}`} to='/comment'>Отзывы</Link>
                     <Link className={`${path ==='пользователи'?'aside__li active':'aside__li'}`} to='/users'>Пользователи</Link>
                 </ul>
             </div>
