@@ -1,0 +1,119 @@
+.dashboard{
+  margin-left: 40px;
+  h2{
+    color: #1F384C;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+  }
+  &__top{
+    display: flex;
+  }
+  &__left{
+    width: 678px;
+    margin-top: 40px;
+    h3{
+      color: #000;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+    p{
+      color: #000;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.5px;
+      margin-top: 24px;
+    }
+    img{
+      margin-top: 20px;
+    }
+  }
+  &__but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+      color: #000;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.5px;
+    }
+    button{
+      color: #5A6ACF;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+      width: 109px;
+      height: 32px;
+      flex-shrink: 0;
+      border: none;
+    }
+  }
+  &__tub{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 24px;
+    p{
+      color: #121212;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 0.5px;
+    }
+  }
+  &__right{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 362px;
+    p{
+      color: #000;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.5px;
+      margin-top: 8px;
+    }
+    img{
+      margin-top: 60px;
+      margin-left: 110px;
+    }
+  }
+  &__ll{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  &__svg{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+}
+.line{
+  height: 470px;
+  width: 1px;
+  background: #C8CBD9;
+  margin-left: 40px;
+}
+.Line{
+  width: 1150px;
+  height: 1px;
+  background: #C8CBD9;
+}

@@ -19,7 +19,7 @@ const Aside = () => {
         <aside className='aside'>
             <div className="aside__container">
                 <img src={logo} alt=""/>
-                <h2 className=''>Menu</h2>
+                <h2>Menu</h2>
                 <ul className='aside__menu'>
                     <Link className={`${path ==='главная'?'aside__li active':'aside__li'}`} to='/' >Главная</Link>
                     <Link>Товары</Link>
