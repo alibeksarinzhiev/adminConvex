@@ -3,11 +3,13 @@ import './comment.css'
 
 const Comment = () => {
     return (
-        < div >
-
-        < /div>
-)
-    ;
+      <section className ='comment'>
+       <div className = "comment__users">
+        <p>Средний балл : </p>
+           <h3>4,6</h3>
+       </div>
+      </section>
+);
 };
 
 export default Comment;

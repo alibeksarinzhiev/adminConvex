@@ -1,0 +1,12 @@
+.comment__users p{
+    font-size: 26px;
+    margin-top: 40px;
+    color: black;
+    margin-left: 40px;
+}
+.comment__users h3 {
+    color: black;
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 20px;
+}
