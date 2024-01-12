@@ -1,12 +1,20 @@
 .comment__users p{
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 40px;
     color: black;
     margin-left: 40px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.5px;
 }
 .comment__users h3 {
     color: black;
     margin-top: 20px;
     margin-left: 45px;
+    font-size: 17px;
+}
+.comment__text p{
     font-size: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
 }
