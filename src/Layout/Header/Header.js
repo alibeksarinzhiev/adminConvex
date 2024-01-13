@@ -1,10 +1,10 @@
 import React from 'react';
 import './header.scss'
 
+
 const Header = () => {
     return (
-        <header>
-        header
+        <header className='header'>
         </header>
     );
 };

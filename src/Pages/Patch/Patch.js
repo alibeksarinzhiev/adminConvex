@@ -2,20 +2,18 @@ import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import {useLocation} from "react-router-dom";
 import {useForm} from "react-hook-form";
-
-
+import './patch.scss'
 
 const Patch = () => {
-    const [oneProduct,setOneProduct] = useState({})
+    const [oneProduct, setOneProduct] = useState({})
 
     const id = useLocation().pathname.split('/').at(-1);
 
 
-
-    useEffect(()=>{
+    useEffect(() => {
         axios(`http://localhost:8080/product_convex/${id}`)
-            .then(({data})=>setOneProduct(data))
-    },[])
+            .then(({data}) => setOneProduct(data))
+    }, [])
 
     const {
         register,
@@ -23,17 +21,16 @@ const Patch = () => {
         reset
     } = useForm()
 
-    const patchProduct =(obj)=>{
-        axios.patch(`http://localhost:8080/product_convex/${id}`,obj)
-
+    const patchProduct = (obj) => {
+        axios.patch(`http://localhost:8080/product_convex/${id}`, obj)
     }
     return (
-        <section>
+        <section className='patch'>
             <form onSubmit={handleSubmit(patchProduct)}>
-            <input {...register('title')} defaultValue={oneProduct.title} type="text"/>
-            <input  type="text"/>
-            <input type="text"/>
-            <input type="text"/>
+                <input {...register('title')} defaultValue={oneProduct.title} type="text"/>
+                <input type="text"/>
+                <input type="text"/>
+                <input type="text"/>
                 <button>изменить</button>
             </form>
         </section>
