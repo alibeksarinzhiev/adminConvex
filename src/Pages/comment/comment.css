@@ -18,3 +18,79 @@
     margin-top: 70px;
     margin-left: 40px;
 }
+.img__one img {
+    background: #C4C4C4;
+    border-radius: 50% ;
+    flex-shrink: 0;
+    width: 65px;
+    height: 65px;
+}
+.user__one {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.putin p {
+    font-size: 18px;
+}
+.user__one p {
+    margin-left: 20px;
+}
+.star__img img{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -90px;
+}
+.text__one p {
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.user__one button{
+    border-radius: 90px;
+    width: 25px;
+    height: 25px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.img__two img{
+background: black;
+    border-radius: 50% ;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+}
+.user__two {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.text__zero p{
+    position: absolute;
+    margin-top: 32px;
+    position: absolute;
+    margin-left: -85px;
+    width: 45%;
+}
+.artem p{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.startwo__img img {
+    margin-left: -85px;
+ margin-top: 100px;
+    width: 75px;
+    height: 15px;
+}
+.text__two p{
+    margin-top: 130px;
+    margin-left: 195px;
+}
+.user__two button{
+    border-radius: 90px;
+    width: 25px;
+    height: 25px;
+    margin-top: 125px;
+    margin-left: 20px;
+}

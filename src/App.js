@@ -5,6 +5,8 @@ import Layout from "./Layout/Layout";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Users from "./Pages/Users/Users";
 import Comment from "./Pages/comment/comment";
+import Product from "./Pages/Product/Product";
+import Patch from "./Pages/Patch/Patch";
 
 const App = () => {
 
@@ -16,6 +18,9 @@ const App = () => {
                    <Route path='' element={<Dashboard/>}/>
                    <Route path='users' element={<Users/>}/>
                    <Route path='comment'element={<Comment/>}/>
+                   <Route path='product' element={<Product/>}/>
+                   <Route path='patch/:id' element={<Patch/>}/>
+
                </Route>
            </Routes>
         </>
