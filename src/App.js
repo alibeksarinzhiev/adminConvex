@@ -6,6 +6,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard";
 import Users from "./Pages/Users/Users";
 import Product from "./Pages/Product/Product";
 import Patch from "./Pages/Patch/Patch";
+import AddProduct from "./Pages/AddProduct/AddProduct";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
                    <Route path='' element={<Dashboard/>}/>
                    <Route path='users' element={<Users/>}/>
                    <Route path='product' element={<Product/>}/>
+                   <Route path='add-product' element={<AddProduct/>}/>
                    <Route path='patch/:id' element={<Patch/>}/>
                </Route>
            </Routes>

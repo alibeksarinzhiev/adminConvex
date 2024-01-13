@@ -1,4 +1,5 @@
 .aside{
+  position: fixed;
   background: #F1F2F7;
   height: 100vh;
   &__container{
@@ -34,10 +35,9 @@ display: flex;
 
 }
 .active{
-  color: #5A6ACF;
+  padding: 10px;
+  color: rgb(245, 242, 204);
   background: #707FDD;
-  height: 24px;
-  width: 200px;
   border-radius: 5px;
 }
 a{
