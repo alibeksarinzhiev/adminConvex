@@ -19,7 +19,6 @@ const Aside = () =>{
         },
         [location])
 
-    const {path} = useContext(CustomContext)
     return (
         <aside className='aside'>
             <div className="aside__container">
